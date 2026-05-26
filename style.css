@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    padding: 40px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0058A3; /* IKEA blue */
+    color: #FBD914; /* IKEA yellow */
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 8px solid #FBD914; /* IKEA yellow accent */
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #0058A3;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #004b8d;
+    transform: translateY(-2px);
+}
+
+section ul li a {
+    color: #0058A3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section ul li a:hover {
+    color: #FBD914;
+    text-decoration: underline;
+}
+
+section p {
+    font-style: italic;
+    color: #555;
+}
+
+section ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+section ul li {
+    margin-bottom: 20px;
+}
+
+section ul li p {
+    margin: 5px 0 0 20px;
+    font-size: 0.95rem;
+    font-style: normal; 
+    color: #555;        
+}
+
+section ul li a {
+    color: #0058A3;      
+    text-decoration: none;
+    font-weight: bold;  /* Challenge A solved! */
+}
+
+section ul li a:hover {
+    color: #FBD914;      
+    text-decoration: underline; /* Challenge B solved! */
+}
