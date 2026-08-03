@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #0057a39c; /* IKEA blue */
+    background-color: #0057a340; /* IKEA blue */
     color: #FBD914; /* IKEA yellow */
     padding: 20px;
     border-radius: 12px;
@@ -29,7 +29,7 @@ section {
 button {
     padding: 12px 24px;
     border: none;
-    background-color: #0057a39c;
+    background-color: #0057a340;
     color: white;
     border-radius: 8px;
     margin-top: 20px;
