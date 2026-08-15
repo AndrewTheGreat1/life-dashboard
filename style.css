@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0058A3; /* IKEA blue 0058A3 works great here but other buttons need to be darker. White is the oringal: f5f5f5 */
+    background-color: #f5f5f5; /* IKEA blue 0058A3 works great here but other buttons need to be darker. White is the oringal: f5f5f5 change back if you want*/
     color: #222;
     padding: 40px;
     line-height: 1.6;
