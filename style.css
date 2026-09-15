@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* IKEA blue 0058A3 works great here but other buttons need to be darker. White is the oringal: f5f5f5 change back if you want*/
+    background-color: #0058A3; /* IKEA blue */
     color: #222;
     padding: 40px;
     line-height: 1.6;
@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    background-color: #0057a340; /* IKEA blue */
-    color: #FBD914; /* IKEA yellow */
+    background-color: #FBD914; /* IKEA yellow */
+    color: #003B6F; /* Dark blue for "Life Dashboard" */
     padding: 20px;
     border-radius: 12px;
     text-align: center;
@@ -29,7 +29,7 @@ section {
 button {
     padding: 12px 24px;
     border: none;
-    background-color: #0057a340;
+    background-color: #004B8D;
     color: white;
     border-radius: 8px;
     margin-top: 20px;
@@ -39,19 +39,8 @@ button {
 }
 
 button:hover {
-    background-color: #004b8d;
+    background-color: #003B6F;
     transform: translateY(-2px);
-}
-
-section ul li a {
-    color: #0058A3;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-section ul li a:hover {
-    color: #FBD914;
-    text-decoration: underline;
 }
 
 section p {
@@ -60,7 +49,7 @@ section p {
 }
 
 section ul {
-    list-style-type: none; 
+    list-style-type: none;
     padding-left: 0;
 }
 
@@ -71,17 +60,17 @@ section ul li {
 section ul li p {
     margin: 5px 0 0 20px;
     font-size: 0.95rem;
-    font-style: normal; 
-    color: #555;        
+    font-style: normal;
+    color: #555;
 }
 
 section ul li a {
-    color: #0058A3;      
+    color: #0058A3;
     text-decoration: none;
-    font-weight: bold;  /* Challenge A solved! */
+    font-weight: bold;
 }
 
 section ul li a:hover {
-    color: #FBD914;      
-    text-decoration: underline; /* Challenge B solved! */
+    color: #004B8D;
+    text-decoration: underline;
 }
